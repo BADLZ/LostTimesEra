@@ -1,8 +1,10 @@
 package app.facade.dto;
 
-public class PlayerDTO {
+import java.io.Serializable;
 
-	
+public class PlayerDTO implements Serializable{
+
+	private static final long serialVersionUID = -4381652443739437211L;
 	private String name, title, rank;
 	private int level, gold;
 
